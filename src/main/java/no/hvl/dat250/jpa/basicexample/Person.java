@@ -19,7 +19,7 @@ public class Person {
     @ManyToMany 
     private Set<Adress> adress = new HashSet<>();
 
-    @OneToMany()
+    @OneToMany
     private Set<CreditCard> creditCards = new HashSet<>();
 
     @ManyToMany

@@ -1,7 +1,7 @@
 ----------------------------------------------------------------
-Sun Sep 12 18:26:25 CEST 2021:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.15.2.0 - (1873585): instance a816c00e-017b-dad4-d189-000004fc53a0 
-on database directory C:\Users\hsm20\OneDrive\Lenovo\Documents\UiB-VildePC\DAT250\DAT250_Eclipse_workspace\jpa-basic-banking\banking2db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4e0e2f2a 
+Thu Sep 16 09:21:06 CEST 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.15.2.0 - (1873585): instance a816c00e-017b-ed7b-011c-000004febc10 
+on database directory C:\Users\hsm20\OneDrive\Lenovo\Documents\UiB-VildePC\DAT250\DAT250_Eclipse_workspace\jpa-basic-banking\banking2_editeddb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4e0e2f2a 
 Loaded from file:/C:/Users/hsm20/.m2/repository/org/apache/derby/derby/10.15.2.0/derby-10.15.2.0.jar
 java.vendor=Oracle Corporation
 java.runtime.version=12.0.2+10

@@ -28,42 +28,42 @@ public class Main {
         
         Person person = new Person();
         person.setName("Max Mustermann");
-        person.setId(1L); //Long 
         
         
         Adress address = new Adress();
         address.setStreet("Inndalsveien");
         address.setNumber(28);
-        address.setId(1L);
         
         CreditCard creditCard1 = new CreditCard();
         creditCard1.setNumber(12345);
         creditCard1.setBalance(-5000);
         creditCard1.setLimit(-10000);
-        creditCard1.setId(1L);
         
+        Pincode pincode1 = new Pincode();
+        pincode1.setPincode(123);
+        pincode1.setCount(1);
+        
+        creditCard1.setPincode(pincode1);
         
         CreditCard creditCard2 = new CreditCard();
         creditCard2.setNumber(123);
         creditCard2.setBalance(1);
         creditCard2.setLimit(2000);
-        creditCard2.setId(1L);
+        
+        Pincode pincode2 = new Pincode();
+        pincode2.setPincode(321);
+        pincode2.setCount(2);
+        
+        creditCard1.setPincode(pincode2);
         
         Set<CreditCard> creditCards = new HashSet<>();
         creditCards.add(creditCard1);
         creditCards.add(creditCard2);
-        
         person.setCreditCards(creditCards);
         
-        Pincode pincode = new Pincode();
-        pincode.setPincode(123);
-        pincode.setCount(1);
-        pincode.setId(1L);
-     
-        
+               
         Bank bank = new Bank();
         bank.setName("Pengebank");
-        bank.setId(1L);
 
         em.getTransaction().begin();
 
